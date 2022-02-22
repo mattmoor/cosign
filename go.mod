@@ -10,7 +10,7 @@ require (
 	github.com/go-openapi/strfmt v0.20.2
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-piv/piv-go v1.8.0
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.7
 	github.com/google/go-containerregistry v0.6.0
 	github.com/google/trillian v1.3.14-0.20210713114448-df474653733c
 	github.com/in-toto/in-toto-golang v0.2.1-0.20210806133539-f50646681592
