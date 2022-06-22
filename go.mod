@@ -3,39 +3,29 @@ module github.com/sigstore/cosign
 go 1.16
 
 require (
-	cloud.google.com/go/storage v1.16.1
+	cloud.google.com/go/storage v1.22.1
 	github.com/cyberphone/json-canonicalization v0.0.0-20210823021906-dc406ceaf94b
-	github.com/form3tech-oss/jwt-go v3.2.5+incompatible // indirect
-	github.com/go-openapi/runtime v0.19.31
-	github.com/go-openapi/strfmt v0.20.2
-	github.com/go-openapi/swag v0.19.15
+	github.com/go-openapi/runtime v0.24.1
+	github.com/go-openapi/strfmt v0.21.2
+	github.com/go-openapi/swag v0.21.1
 	github.com/go-piv/piv-go v1.8.0
-	github.com/google/go-cmp v0.5.6
-	github.com/google/go-containerregistry v0.6.0
-	github.com/google/trillian v1.3.14-0.20210713114448-df474653733c
-	github.com/in-toto/in-toto-golang v0.2.1-0.20210806133539-f50646681592
+	github.com/google/go-cmp v0.5.8
+	github.com/google/go-containerregistry v0.9.0
+	github.com/google/trillian v1.4.1
+	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
 	github.com/manifoldco/promptui v0.8.0
-	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/open-policy-agent/opa v0.32.0
 	github.com/peterbourgon/ff/v3 v3.1.0
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/common v0.30.0 // indirect
-	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/sigstore/fulcio v0.1.2-0.20210831152525-42f7422734bb
-	github.com/sigstore/rekor v0.3.0
-	github.com/sigstore/sigstore v0.0.0-20210729211320-56a91f560f44
+	github.com/sigstore/rekor v0.8.2
+	github.com/sigstore/sigstore v1.2.1-0.20220526001230-8dc4fa90a468
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
-	github.com/theupdateframework/go-tuf v0.0.0-20210722233521-90e262754396
-	go.uber.org/atomic v1.9.0 // indirect
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
-	golang.org/x/mod v0.5.0 // indirect
-	golang.org/x/net v0.0.0-20210903162142-ad29c8ab022f // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210903071746-97244b99971b // indirect
-	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/api v0.56.0
+	github.com/stretchr/testify v1.7.1
+	github.com/theupdateframework/go-tuf v0.3.0
+	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
+	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
+	google.golang.org/api v0.81.0
 	k8s.io/api v0.22.1
 	k8s.io/apimachinery v0.22.1
 	k8s.io/client-go v0.22.1
@@ -44,18 +34,9 @@ require (
 )
 
 require (
-	cloud.google.com/go v0.94.1 // indirect
-	cloud.google.com/go/kms v0.1.0 // indirect
-	github.com/cncf/udpa/go v0.0.0-20210322005330-6414d713912e // indirect
-	github.com/cncf/xds/go v0.0.0-20210805033703-aa0b78936158 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
-	github.com/envoyproxy/go-control-plane v0.9.9 // indirect
-	github.com/envoyproxy/protoc-gen-validate v0.6.1 // indirect
-	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/google/certificate-transparency-go v1.1.2-0.20210728111105-5f7e9ba4be3d
 	github.com/peterh/liner v1.2.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
-	github.com/urfave/cli v1.22.5 // indirect
-	go.opentelemetry.io/contrib v0.22.0 // indirect
+	go.etcd.io/etcd v0.5.0-alpha.5.0.20200910180754-dd1b699fc489 // indirect
 	go.opentelemetry.io/proto/otlp v0.9.0 // indirect
 )
